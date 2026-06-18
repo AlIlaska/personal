@@ -15,7 +15,6 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.linear_model import Ridge, LinearRegression
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
-from nltk.stem import WordNetLemmatizer
 
 # Для обработки предупреждений
 import warnings
