@@ -366,7 +366,7 @@ if page == "📊 EDA":
     st.header("Исследовательский анализ данных (EDA)")
     
     # Загружаем данные для EDA
-    df_eda = pd.read_csv('Final_clean_df.csv')
+    df_eda = pd.read_csv('Clean_df_for_ML.csv')
     
     col1, col2 = st.columns(2)
     
