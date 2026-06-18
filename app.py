@@ -304,7 +304,7 @@ def predict_new_data(model, df_new, scores_cache):
     # TF-IDF
     tfidf = TfidfVectorizer(
         max_features=150,
-        stop_words=None',
+        stop_words=None,
         min_df=3,
         max_df=0.8,
         tokenizer=tokenize,
