@@ -1,0 +1,10 @@
+# Tested with the versions below; >= keeps it flexible.
+streamlit>=1.41          # needs width="stretch" API
+scikit-learn>=1.4
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+shap>=0.44
+plotly>=5.18
+joblib>=1.3
+pyarrow>=12.0            # parquet for the EDA dataset
